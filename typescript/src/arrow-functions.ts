@@ -1,0 +1,12 @@
+const pizzas = [
+    { name: 'Pepperoni', toppings: ['pepperoni']}
+];
+
+/*
+const mappedPizzas = pizzas.map(function(pizza) {
+    return pizza.name.toUpperCase();
+});*/
+
+const mappedPizzas = pizzas.map((pizza, index) => index + ': ' + pizza.name.toUpperCase());
+
+console.log(mappedPizzas);

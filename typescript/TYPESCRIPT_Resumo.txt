@@ -1,0 +1,19 @@
+- microsoft
+- superset of Javascript
+- static type system
+- IDE support, new ECMAScript features
+- types act as documentation
+- type inference
+
+- imports and exports
+- arrow functions
+- function parameters
+- spread operators
+- destructuring
+- object literal enhancements
+
+- webpack.config.js (instruct how to compile the project)
+- arrow functions does not create a new scope
+
+- >> npm install -g typescript
+- >> tsc -- init
